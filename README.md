@@ -1,6 +1,8 @@
 # Nerv - Environment Variables for Humans. Ruby Edition!
 
 [![Build Status](https://travis-ci.org/kavu/nerv.png)](https://travis-ci.org/kavu/nerv)
+[![Code Climate](https://codeclimate.com/github/kavu/nerv.png)](https://codeclimate.com/github/kavu/nerv)
+[![Still Maintained](http://stillmaintained.com/kavu/nerv.png)](http://stillmaintained.com/kavu/nerv)
 
 Nerv is a tiny gem, inspired by [@kennethreitz](https://raw.github.com/kennethreitz/)'s [env](https://raw.github.com/kennethreitz/env/). So, it provides a mapping interface for Environment Variables, too.
 
