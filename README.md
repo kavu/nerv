@@ -1,6 +1,8 @@
 # Nerv - Environment Variables for Humans. Ruby Edition!
 
-Nerv is a tiny gem, inspired by @kennethreitz [env](https://raw.github.com/kennethreitz/env/). So, it provides a mapping interface for Environment Variables, too.
+[![Build Status](https://travis-ci.org/kavu/nerv.png)](https://travis-ci.org/kavu/nerv)
+
+Nerv is a tiny gem, inspired by [@kennethreitz](https://raw.github.com/kennethreitz/)'s [env](https://raw.github.com/kennethreitz/env/). So, it provides a mapping interface for Environment Variables, too.
 
 ## Installation
 
@@ -38,7 +40,7 @@ ruby_env = Nerv.prefix('RUBY')
 
 ```ruby
 ruby_env = Nerv.prefix('ZSH', '-')
-# ruby_env == { 'FREE_MIN' => 0, 'GC_MALLOC_LIMIT' => 0 }
+# ruby_env == { 'HOME' => 0 }
 ```
 
 Also, there is a shorthand for `Nerv.prefix` with default separator:
