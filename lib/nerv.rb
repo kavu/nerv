@@ -8,10 +8,8 @@ class Nerv
       regexp = /^#{keys_prefix}#{separator}/
 
       pairs = ENV.map { |k, v| [k.gsub(regexp, ''), v] if k =~ regexp }
-                 .compact
-                 .flatten
 
-      Hash[*pairs]
+      Hash[*pairs.compact.flatten]
     end
 
     def [](keys_prefix)
