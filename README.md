@@ -1,6 +1,7 @@
 # Nerv - Environment Variables for Humans. Ruby Edition!
 
-[![Build Status](https://travis-ci.org/kavu/nerv.png)](https://travis-ci.org/kavu/nerv)
+[![Coderwall](https://api.coderwall.com/kavu/endorsecount.png)](https://coderwall.com/kavu)
+[![Travis CI](https://travis-ci.org/kavu/nerv.png)](https://travis-ci.org/kavu/nerv)
 [![Code Climate](https://codeclimate.com/github/kavu/nerv.png)](https://codeclimate.com/github/kavu/nerv)
 [![Still Maintained](http://stillmaintained.com/kavu/nerv.png)](http://stillmaintained.com/kavu/nerv)
 
